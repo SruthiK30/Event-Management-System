@@ -1,0 +1,38 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+</head>
+<body>
+    <h1>Register an Event</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Register an Event</button>
+    </form>
+    <a href="{% url 'events' %}"><p>Back to Event List</p></a>
+</body>
+</html> -->
+
+
+<!-- for delete -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+</head>
+<body>
+    <h1>Register an Event</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Register an Event</button>
+    </form>
+    <a href="{% url 'events' %}"><p>Back to Event List</p></a>
+</body>
+</html>
