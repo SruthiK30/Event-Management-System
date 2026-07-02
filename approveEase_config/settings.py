@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'approveEase.urls'
+ROOT_URLCONF = 'approveEase_config.urls'
 
 TEMPLATES = [
     {
